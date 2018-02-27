@@ -1,6 +1,6 @@
 pragma solidity 0.4.19;
 
-import "./Ownable.sol";
+import "../utility_contracts/Ownable.sol";
 
 contract CatLives is Ownable {
     address public owner = msg.sender;
